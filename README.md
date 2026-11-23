@@ -1,4 +1,7 @@
 # pdf2md-for-rag
+
+[![DOI](https://zenodo.org/badge/1468390220.svg)](https://doi.org/10.5281/zenodo.24457638)
+
 Batch-convert scientific PDFs to structured Markdown for RAG ingestion, with optional figure export and DOI metadata.
 
 The converter uses Docling to extract document structure, tables, and formulas. It writes one Markdown file per PDF and adds a YAML metadata block with the source filename, article title and DOI when available, and conversion status. Figures are not exported by default; enable figure export when they matter to your downstream workflow.
