@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use version 0.1.0 of this software, please cite the archived release on Zenodo."
+title: "PDF2MD for RAG"
+type: software
+authors:
+  - family-names: "Volochaev"
+    given-names: "Vadim A."
+version: "0.1.0"
+doi: "10.5281/zenodo.24457639"
+license: MIT
